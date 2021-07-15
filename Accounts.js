@@ -1,1 +1,7 @@
-export const name = 'BERKAY';
+export class Account {
+    constructor(name, money) {
+        this.name = name;
+        this.money = money;
+    }
+}
+
